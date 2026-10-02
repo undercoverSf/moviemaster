@@ -5,6 +5,11 @@ const searchBtn = document.getElementById("searchBtn");
 const results = document.getElementById("results");
 
 searchBtn.addEventListener("click", searchMovies);
+searchBox.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    searchMovies();
+  }
+});
 
 async function searchMovies() {
   const query = searchBox.value;
