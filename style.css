@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.movie {
+  width: 150px;
+}
+
+.movie img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie p {
+  font-size: 14px;
+  margin-top: 5px;
+}
